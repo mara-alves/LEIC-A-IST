@@ -12,6 +12,7 @@ The UML doesn't represent the final code: we did the UML first. And it has quite
 
 ## How To Run
 - `java woo.app.App`
+
 OR
 - `java -Dimport=file.txt woo.app.App`
 
@@ -26,5 +27,6 @@ Please keep in mind that this project doesn't contemplate error verifications in
 `CONTAINER|id|service-type|service-level|id-supplier|price|critical-value|stock`
 #### To register a book
 `BOOK|id|title|author|isbn|id-supplier|price|critical-value|stock`
+
 
 In the import file, all suppliers and clients must be registered before products!
