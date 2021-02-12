@@ -16,7 +16,9 @@ The UML doesn't represent the final code: we did the UML first. And it has quite
 OR
 - `java -Dimport=file.txt woo.app.App`
 
+## Import File
 Please keep in mind that this project doesn't contemplate error verifications in the import file. Here is how the text in the import file must be:
+
 #### To register suppliers
 `SUPPLIER|id|name|address`
 #### To register a client
@@ -28,5 +30,4 @@ Please keep in mind that this project doesn't contemplate error verifications in
 #### To register a book
 `BOOK|id|title|author|isbn|id-supplier|price|critical-value|stock`
 
-
-In the import file, all suppliers and clients must be registered before products!
+</p>In the import file, all suppliers and clients must be registered before products!
