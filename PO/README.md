@@ -11,7 +11,7 @@ The UML doesn't represent the final code: we did the UML first. And it has quite
 - then, still inside woo-app, **make**
 
 ## How To Run
-- jawa woo.app.App 
+- java woo.app.App 
 OR
 - java -Dimport=file.txt woo.app.App
 
