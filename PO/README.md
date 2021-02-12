@@ -7,7 +7,7 @@ The UML doesn't represent the final code: we did the UML first. And it has quite
 ## How To Compile
 - `export CLASSPATH=<folder>/po-uuilib/po-uuilib.jar:<folder>/woo-app/woo-app.jar:<folder>/woo-core/woo-core.jar`
 - inside woo-core, `make`
-- inside woo-app, modify the Makefile so that JAVADIR is your po-uuilib directory (<folder>/po-uuilib)
+- inside woo-app, modify the Makefile so that *JAVADIR* is your po-uuilib directory (`<folder>/po-uuilib`)
 - then, still inside woo-app, `make`
 
 ## How To Run
@@ -30,4 +30,4 @@ Please keep in mind that this project doesn't contemplate error verifications in
 #### To register a book
 `BOOK|id|title|author|isbn|id-supplier|price|critical-value|stock`
 
-</p>In the import file, all suppliers and clients must be registered before products!
+<br/><br/>In the import file, all suppliers and clients must be registered before products!
