@@ -1,0 +1,28 @@
+Boas práticas (máx. 1.5 val.):
+cria_posicao: bastava um raise
+
+eh_posicao: bastava um return
+
+eh_unidade: bastava um return
+
+unidade_para_char desnecessariamente complicada
+
+unidade_ataca: if desnecessário
+
+eh_posicao_corredor: bastava um return
+
+calcula_pontos desnecessariamente complicada
+
+standard == False
+
+
+Comentários (máx. 1.0 val.):
+Linhas demasiado longas
+
+
+Tam. func., dup. cód., abst. proc. (máx. 1.0 val.): 
+Não usa funções anteriores, p.ex. mover_unidade
+
+
+Nomes escolhidos (máx. 0.5 val.):
+

@@ -1,0 +1,17 @@
+Boas práticas (máx. 1.5 val.):
+em eh_posicao_livre não era necessário o ciclo; x e y calculados várias vezes
+
+em mapa_str, while devia ser for
+
+uso indevido de try
+
+Comentários (máx. 1.0 val.):
+Sem assinaturas, nem doc_strings
+Linhas demasiado longas
+
+Tam. func., dup. cód., abst. proc. (máx. 1.0 val.): 
+tamanho obter_objetivos
+
+
+Nomes escolhidos (máx. 0.5 val.):
+
