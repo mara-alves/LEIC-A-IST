@@ -1,4 +1,4 @@
-# FP Project 2 2020-21
+# FP Project 2 2019-20
 Second project for the course *Fundamentos da Programação*.
 
 It consists on a battle simulator between two armies in a 2D maze with obstacles.

@@ -1,4 +1,4 @@
-# FP Project 1 2020-21
+# FP Project 1 2019-20
 First project for the first programming course I ever had, *Fundamentos da Programação*. 
 
 It consists on a 2D maze with obstacles, and several units that can move around the maze.
