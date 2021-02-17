@@ -4,10 +4,10 @@ Projects from Computer Science classes at Instituto Superior Técnico.
 ## Table of Contents
 ### B.Sc.
 #### First Year
-- [Fundamentos da Programação (FP)](./LP)
+- [Fundamentos da Programação (FP)](./FP)
 - [Introdução à Arquitetura de Computadores (IAC)](./IAC)
-- [Lógica para Programação (LP)](./LP)
 - [Introdução aos ALgoritmos e Estruturas de Dados (IAED)](./IAED)
+- [Lógica para Programação (LP)](./LP)
 
 #### Second Year
 - [Programação com Objetos (PO)](./PO)
