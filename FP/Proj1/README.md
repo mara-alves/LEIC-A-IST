@@ -7,3 +7,5 @@ My final grade was `18.8/20.0`. The teacher's comments are available in the "956
 
 ## How to Run
 Type `python -i Proj1.py` in the terminal.
+
+hello :)
