@@ -1,0 +1,24 @@
+do 0_ 00 rr do
+do 1_ 11 rr do
+do 2_ 22 rr do
+do 3_ 33 rr do
+do 4_ 44 rr do
+do 5_ 55 rr do
+do 6_ 66 rr do
+do 7_ 77 rr do
+do 8_ 88 rr do
+do 9_ 99 rr do
+do Q_ QQ rr do
+do A_ AA rr do
+do L_ LL rr do
+do R_ RR rr do
+do S_ SS rr do
+do ;_ ;; rr do
+
+do Y_ YN rr do
+do N_ NY rr do
+do __ __ *l back
+
+
+back __ __ *r halt-accept
+back _* _* *l back

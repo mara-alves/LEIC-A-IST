@@ -1,6 +1,6 @@
 # PO Project 2020-21
-This is a project I made for the course called *Programação com Objetos*. Consists on a management application for a distribution company.
-My final grade was `17/20`.
+This is a project I made for the course called *Programação com Objetos*, with Margarida Rodrigues. Consists on a management application for a distribution company.
+Our final grade was `17/20`.
 
 The UML doesn't represent the final code: we did the UML first. And it has quite some mistakes. Sorry about that.
 

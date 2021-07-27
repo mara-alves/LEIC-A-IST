@@ -1,0 +1,89 @@
+m1 0_ 00 rr m1
+m1 1_ 11 rr m1
+m1 2_ 22 rr m1
+m1 3_ 33 rr m1
+m1 4_ 44 rr m1
+m1 5_ 55 rr m1
+m1 6_ 66 rr m1
+m1 7_ 77 rr m1
+m1 8_ 88 rr m1
+m1 9_ 99 rr m1
+m1 L_ LL rr m1
+m1 R_ RR rr m1
+m1 S_ SS rr m1
+m1 ;_ ;; rr m1
+m1 A_ AA rr m1
+
+m1 Q_ QQ rr qzero
+m1 Y_ YQ rr y1
+m1 $_ $_ *l back
+m1 N_ NN rr addN1
+
+addN1 N_ NN rr addN1
+addN1 *_ *N *r m1
+
+qzero *_ *0 *r m1
+
+y1 Y_ Y1 rr y0
+y0 Y_ Y0 rr y0
+y0 *_ *0 *r foundy
+
+
+foundy 0_ 00 rr foundy
+foundy 1_ 11 rr foundy
+foundy 2_ 22 rr foundy
+foundy 3_ 33 rr foundy
+foundy 4_ 44 rr foundy
+foundy 5_ 55 rr foundy
+foundy 6_ 66 rr foundy
+foundy 7_ 77 rr foundy
+foundy 8_ 88 rr foundy
+foundy 9_ 99 rr foundy
+foundy L_ LL rr foundy
+foundy R_ RR rr foundy
+foundy S_ SS rr foundy
+foundy ;_ ;; rr foundy
+foundy A_ AA rr foundy
+
+foundy Q_ QQ rr qzeroy
+foundy Y_ YQ rr y1
+foundy $_ $; rr m2
+foundy N_ NN rr addN1y
+
+addN1y N_ NN rr addN1y
+addN1y *_ *N *r foundy
+
+qzeroy *_ *0 *r foundy
+
+
+m2 0_ 00 rr m2
+m2 1_ 11 rr m2
+m2 2_ 22 rr m2
+m2 3_ 33 rr m2
+m2 4_ 44 rr m2
+m2 5_ 55 rr m2
+m2 6_ 66 rr m2
+m2 7_ 77 rr m2
+m2 8_ 88 rr m2
+m2 9_ 99 rr m2
+m2 L_ LL rr m2
+m2 R_ RR rr m2
+m2 S_ SS rr m2
+m2 ;_ ;; rr m2
+m2 A_ AA rr m2
+m2 Y_ YY rr addY2
+m2 N_ NN rr addN2
+
+m2 Q_ QQ rr qone
+m2 __ __ *l back
+
+addN2 N_ NN rr addN2
+addN2 *_ *N *r m2
+
+addY2 Y_ YY rr addY2
+addY2 *_ *Y *r m2
+
+qone *_ *1 *r m2
+
+back *_ *_ *r halt-accept
+back ** ** *l back

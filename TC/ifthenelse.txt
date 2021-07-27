@@ -1,0 +1,215 @@
+c 0_ 00 rr c
+c 1_ 11 rr c
+c 2_ 22 rr c
+c 3_ 33 rr c
+c 4_ 44 rr c
+c 5_ 55 rr c
+c 6_ 66 rr c
+c 7_ 77 rr c
+c 8_ 88 rr c
+c 9_ 99 rr c
+c L_ LL rr c
+c R_ RR rr c
+c S_ SS rr c
+c ;_ ;; rr c
+c A_ AA rr c
+c Q_ QQ rr qzero
+c $_ $_ *l back
+c Y_ YQ rr y1
+c N_ NQ rr n1
+
+qzero *_ *0 *r c
+
+y1 Y_ Y1 rr y0
+y0 Y_ Y0 rr y0
+y0 *_ *0 *r foundy
+
+n1 N_ N2 rr n0
+n0 N_ N0 rr n0
+n0 *_ *0 *r foundn
+
+
+foundy 0_ 00 rr foundy
+foundy 1_ 11 rr foundy
+foundy 2_ 22 rr foundy
+foundy 3_ 33 rr foundy
+foundy 4_ 44 rr foundy
+foundy 5_ 55 rr foundy
+foundy 6_ 66 rr foundy
+foundy 7_ 77 rr foundy
+foundy 8_ 88 rr foundy
+foundy 9_ 99 rr foundy
+foundy L_ LL rr foundy
+foundy R_ RR rr foundy
+foundy S_ SS rr foundy
+foundy ;_ ;; rr foundy
+foundy A_ AA rr foundy
+foundy Q_ QQ rr qzeroy
+foundy $_ $; rr m1only
+foundy Y_ YQ rr y3
+foundy N_ NQ rr n3
+
+qzeroy *_ *0 *r foundy
+
+y3 Y_ Y1 rr y2
+y2 Y_ Y0 rr y2
+y2 *_ *0 *r foundy
+
+n3 N_ N2 rr n2
+n2 N_ N0 rr n2
+n2 *_ *0 *r foundyandn
+
+
+foundn 0_ 00 rr foundn
+foundn 1_ 11 rr foundn
+foundn 2_ 22 rr foundn
+foundn 3_ 33 rr foundn
+foundn 4_ 44 rr foundn
+foundn 5_ 55 rr foundn
+foundn 6_ 66 rr foundn
+foundn 7_ 77 rr foundn
+foundn 8_ 88 rr foundn
+foundn 9_ 99 rr foundn
+foundn L_ LL rr foundn
+foundn R_ RR rr foundn
+foundn S_ SS rr foundn
+foundn ;_ ;; rr foundn
+foundn A_ AA rr foundn
+foundn Q_ QQ rr qzeron
+foundn $_ $; rr skipm1
+foundn Y_ YQ rr y5
+foundn N_ NQ rr n5
+
+qzeron *_ *0 *r foundn
+
+y5 Y_ Y1 rr y4
+y4 Y_ Y0 rr y4
+y4 *_ *0 *r foundyandn
+
+n5 N_ N2 rr n4
+n4 N_ N0 rr n4
+n4 *_ *0 *r foundn
+
+
+foundyandn 0_ 00 rr foundyandn
+foundyandn 1_ 11 rr foundyandn
+foundyandn 2_ 22 rr foundyandn
+foundyandn 3_ 33 rr foundyandn
+foundyandn 4_ 44 rr foundyandn
+foundyandn 5_ 55 rr foundyandn
+foundyandn 6_ 66 rr foundyandn
+foundyandn 7_ 77 rr foundyandn
+foundyandn 8_ 88 rr foundyandn
+foundyandn 9_ 99 rr foundyandn
+foundyandn L_ LL rr foundyandn
+foundyandn R_ RR rr foundyandn
+foundyandn S_ SS rr foundyandn
+foundyandn ;_ ;; rr foundyandn
+foundyandn A_ AA rr foundyandn
+foundyandn Q_ QQ rr qzeroyandn
+foundyandn $_ $; rr m1
+foundyandn Y_ YQ rr y7
+foundyandn N_ NQ rr n7
+
+qzeroyandn *_ *0 *r foundyandn
+
+y7 Y_ Y1 rr y6
+y6 Y_ Y0 rr y6
+y6 *_ *0 *r foundyandn
+
+n7 N_ N2 rr n6
+n6 N_ N0 rr n6
+n6 *_ *0 *r foundyandn
+
+skipm1 $_ $_ r* m2
+skipm1 *_ *_ r* skipm1
+
+
+m1only 0_ 00 rr m1only
+m1only 1_ 11 rr m1only
+m1only 2_ 22 rr m1only
+m1only 3_ 33 rr m1only
+m1only 4_ 44 rr m1only
+m1only 5_ 55 rr m1only
+m1only 6_ 66 rr m1only
+m1only 7_ 77 rr m1only
+m1only 8_ 88 rr m1only
+m1only 9_ 99 rr m1only
+m1only L_ LL rr m1only
+m1only R_ RR rr m1only
+m1only S_ SS rr m1only
+m1only ;_ ;; rr m1only
+m1only A_ AA rr m1only
+m1only Y_ YY rr addY1only
+m1only N_ NN rr addN1only
+m1only Q_ QQ rr qoneonly
+m1only $_ $_ *l back
+
+addN1only N_ NN rr addN1only
+addN1only *_ *N *r m1only
+
+addY1only Y_ YY rr addY1only
+addY1only *_ *Y *r m1only
+
+qoneonly *_ *1 *r m1only
+
+
+m1 0_ 00 rr m1
+m1 1_ 11 rr m1
+m1 2_ 22 rr m1
+m1 3_ 33 rr m1
+m1 4_ 44 rr m1
+m1 5_ 55 rr m1
+m1 6_ 66 rr m1
+m1 7_ 77 rr m1
+m1 8_ 88 rr m1
+m1 9_ 99 rr m1
+m1 L_ LL rr m1
+m1 R_ RR rr m1
+m1 S_ SS rr m1
+m1 ;_ ;; rr m1
+m1 A_ AA rr m1
+m1 Y_ YY rr addY1
+m1 N_ NN rr addN1
+m1 Q_ QQ rr qone
+m1 $_ $; rr m2
+
+addN1 N_ NN rr addN1
+addN1 *_ *N *r m1
+
+addY1 Y_ YY rr addY1
+addY1 *_ *Y *r m1
+
+qone *_ *1 *r m1
+
+
+m2 0_ 00 rr m2
+m2 1_ 11 rr m2
+m2 2_ 22 rr m2
+m2 3_ 33 rr m2
+m2 4_ 44 rr m2
+m2 5_ 55 rr m2
+m2 6_ 66 rr m2
+m2 7_ 77 rr m2
+m2 8_ 88 rr m2
+m2 9_ 99 rr m2
+m2 L_ LL rr m2
+m2 R_ RR rr m2
+m2 S_ SS rr m2
+m2 ;_ ;; rr m2
+m2 A_ AA rr m2
+m2 Y_ YY rr addY2
+m2 N_ NN rr addN2
+m2 Q_ QQ rr qtwo
+m2 __ __ *l back
+
+addN2 N_ NN rr addN2
+addN2 *_ *N *r m2
+
+addY2 Y_ YY rr addY2
+addY2 *_ *Y *r m2
+
+qtwo *_ *2 *r m2
+
+back *_ *_ *r halt-accept
+back ** ** *l back
