@@ -5,5 +5,5 @@ It consists on a 2D maze with obstacles, and several units that can move around 
 
 My final grade was `18.8/20.0`. The teacher's comments are available in the "95625.txt" file, and my score on each category in "Pauta.pdf".
 
-## How to run
-Type `python -i Projeto1.py` in the terminal.
+## How to Run
+Type `python -i Proj1.py` in the terminal.

@@ -2,7 +2,7 @@
 This is a project I made for the course called *Programação com Objetos*, with Margarida Rodrigues. Consists on a management application for a distribution company.
 Our final grade was `17/20`.
 
-The UML doesn't represent the final code: we did the UML first. And it has quite some mistakes. Sorry about that.
+The UML does NOT represent the final code: we did the UML first. And it has quite some mistakes. Sorry about that.
 
 ## How To Compile
 - `export CLASSPATH=<folder>/po-uuilib/po-uuilib.jar:<folder>/woo-app/woo-app.jar:<folder>/woo-core/woo-core.jar`
@@ -30,4 +30,4 @@ Please keep in mind that this project doesn't contemplate error verifications in
 #### To register a book
 `BOOK|id|title|author|isbn|id-supplier|price|critical-value|stock`
 
-<br/><br/>In the import file, all suppliers and clients must be registered before products!
+In the import file, all suppliers and clients must be registered before products!
