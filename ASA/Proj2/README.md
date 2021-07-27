@@ -3,7 +3,7 @@ Second project for the course *Análise e Síntese de Algoritmos*. Made with Mar
 
 Application of Edmonds-Karp algorithm to solve a problem about processes. For more information check out "Enunciado.pdf" (given by the teacher) and "Relatório.pdf" (written by us about our solution).
 
-Our score was `19.00/20`.
+Our score was `19.00/20.00`.
 
 ## How To Compile And Run
 Type `g++ -std=c++11 -O3 -Wall proj2.cpp -lm` in the terminal to compile and then `./a.out` to run.
