@@ -13,6 +13,7 @@ Projects from Computer Science classes at Instituto Superior Técnico.
 - [Programação com Objetos (PO)](./PO)
 - [Sistemas Operativos (SO)](./SO)
 - [Análise e Síntese de Algoritmos (ASA)](./ASA)
+- [Interfaces Pessoa Máquina (IPM)](./IPM)
 - [Teoria da Computação (TC)](./TC)
 
 #### Third Year
