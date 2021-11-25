@@ -14,3 +14,6 @@ Projects from Computer Science classes at Instituto Superior Técnico.
 - [Sistemas Operativos (SO)](./SO)
 - [Análise e Síntese de Algoritmos (ASA)](./ASA)
 - [Teoria da Computação (TC)](./TC)
+
+#### Third Year
+- [Aprendizagem (Apre)](./Apre)
