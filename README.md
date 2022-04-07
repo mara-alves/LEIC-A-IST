@@ -1,5 +1,5 @@
 # LEIC-A-IST
-Projects from Computer Science classes at Instituto Superior Técnico.
+Projects from Computer Science and Engineering classes at Instituto Superior Técnico.
 
 ## Table of Contents
 ### B.Sc.
@@ -18,3 +18,4 @@ Projects from Computer Science classes at Instituto Superior Técnico.
 
 #### Third Year
 - [Aprendizagem (Apre)](./Apre)
+- [Redes de Computadores (RC)](./RC)
