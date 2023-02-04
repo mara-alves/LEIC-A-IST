@@ -19,3 +19,10 @@ Projects from Computer Science and Engineering classes at Instituto Superior Té
 #### Third Year
 - [Aprendizagem (Apre)](./Apre)
 - [Redes de Computadores (RC)](./RC)
+- [Engenharia de Software (ES)](https://github.com/tecnico-softeng-2022/es22-19)
+- [Inteligência Artificial (IA)](./IA)
+- [Sistemas Distribuídos (SD)](https://github.com/tecnico-distsys/A21-Turmas)
+- [Bases de Dados (BD)](https://github.com/mara-alves/BD-Projeto3)
+- [Computação Gráfica (CG)](./CG)
+
+Missing: Compiladores
